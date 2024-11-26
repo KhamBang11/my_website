@@ -1,0 +1,241 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --blue: #154397;
+    --sky: #0083ff;
+    --white:#fff;
+    --black:#000;
+}
+
+* {
+    font-family: "Noto Sans Lao", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.logo__nav {
+    width: 50px;
+    height: 50px;
+}
+
+.logo__sidebar {
+    width: 50px;
+    height: 50px;
+}
+
+.nav__bg {
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    padding: 18px;
+}
+
+.offcanvas__header {
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    padding: 23px 30px;
+
+}
+
+
+.btn__toggler {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn__toggler:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+    background: none;
+}
+
+.offcanvas__bg {
+    border: none !important;
+    width: 70% !important;
+}
+
+.active__nav {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.text__active {
+    position: relative;
+    float: right;
+    /* top: -40px; */
+}
+
+.hover__nav {
+    position: relative;
+    transition: 0.3s ease all;
+}
+
+.hover__nav:hover {
+    color: var(--sky);
+    letter-spacing: 0.5px;
+    /* top: -2px; */
+    /* text-decoration: underline !important; */
+}
+
+.slide__img {
+    width: 100%;
+    height: 60%;
+}
+
+.img__first {
+    width: 80%;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.text__welcome {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20%;
+    font-size: 70px;
+    color: var(--blue);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.textsub__welcome {
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    top: -20px;
+    font-size: 35px;
+    color: var(--blue);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+
+.img__firsts {
+    width: 70%;
+    position: relative;
+    right: -60px;
+    top: 40px;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.text__welcomes {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 13%;
+    font-size: 40px;
+    color: var(--blue);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.textsub__welcomes {
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    color: var(--blue);
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.Readmore{
+    text-align: center;
+    color: var(--blue);
+    background-color:var(--white);
+    border-radius: 30px;
+    border: 2px solid var(--blue);
+    outline: none;
+    padding: 5px 40px;
+    transition: 0.3s ease all;
+    font-weight: bolder;
+}
+.Readmore:hover{
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.Readmores{
+    text-align: center;
+    color: var(--blue);
+    background-color:var(--white);
+    border-radius: 30px;
+    border: 2px solid var(--blue);
+    outline: none;
+    padding: 4px 30px;
+    font-size: 12px;
+    transition: 0.3s ease all;
+    font-weight: bolder;
+   position: relative;
+   top: -20px;
+}
+.Readmores:hover{
+    color: var(--white);
+    background-color: var(--blue);
+}
+.text__br{
+    padding: 5%;
+}
+.img__show_one{
+    margin: 20px;
+    width: 90%;
+    border-radius: 100%;
+    transition: 0.1s ease all;
+}
+.img__show_one:hover{
+    border: 5px solid #ff4f58;
+    box-shadow: 0 0 10px #ff9cd2;
+    cursor: pointer;
+}
+.hr__footline{
+    margin-top: 5%;
+    background-color: var(--black);
+    border: 2px solid var(--black);
+    size: 2px;
+}
+.my__footer{
+    padding: 5%;
+    background-color: var(--black);
+    color: var(--white);
+}
+.footer__text{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.face__book{
+    letter-spacing: 1.8px;
+}
+
+.footer__texts{
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    top: 10px;
+}
+.face__books{
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.WhatsApps{
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
